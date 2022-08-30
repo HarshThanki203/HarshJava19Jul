@@ -13,7 +13,7 @@ public class NestedIfEl {
 		int b = sc.nextInt();
 		System.out.println("Enter C");
 		int c = sc.nextInt();
-		System.out.println("A ="+a+", B = "+ b +", C = "+ c +".");
+		System.out.println("A ="+a+", B = "+ b +", C = "+".");
 		
 		if(a>b)
 		{
