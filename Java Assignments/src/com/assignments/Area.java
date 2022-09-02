@@ -6,8 +6,7 @@ public class Area {
 		
 		int a=4;
 		int area_of_square = a*a;
-		System.out.println("Area of Square
-is :"+area_of_square);
+		System.out.println("Area of Square is :"+area_of_square);
 	    
 		
 	    int length=4;

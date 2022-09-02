@@ -1,11 +1,11 @@
-package practice;
+package practiceprogramms;
 
 public class FirstProgram {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-       system.out.println("HELLO WORLD");                 
+       System.out.println("HELLO WORLD");                 
 
 }
 }

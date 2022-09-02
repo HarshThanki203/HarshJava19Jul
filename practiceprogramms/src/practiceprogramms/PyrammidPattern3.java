@@ -1,4 +1,4 @@
-package practice;
+package practiceprogramms;
 
 public class PyrammidPattern3 {
 

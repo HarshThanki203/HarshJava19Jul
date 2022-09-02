@@ -15,8 +15,6 @@ class A2{
 
 class B2 extends A2{
 	
-	
-	
 	B2()
 	{
 		System.out.println("B2's Constructor called");
