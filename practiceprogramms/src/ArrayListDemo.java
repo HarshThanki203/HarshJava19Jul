@@ -1,9 +1,7 @@
 package practiceprogramms;
-
-
-
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.ListIterator;
 
 public class ArrayListDemo {
 	
@@ -23,12 +21,32 @@ public class ArrayListDemo {
 		System.out.println(al.isEmpty());
 		System.out.println(al.remove(3));
 		System.out.println(al.set(3, 100));
-		System.out.println(al); 
+		System.out.println(al);
 		
+		System.out.println("---------Iterator-------");
+		Iterator itr = al.iterator();
+		while(itr.hasNext())
+		{
+			System.out.println(itr.next());
+		}
 		
-		System.out.println("------iterator-------");
-		Iterator itr=al.iterator();
+		System.out.println("------List Iterator-----");
+		ListIterator litr =al.listIterator();
+		
+		while(litr.hasNext())
+		{
+			System.out.println(litr.next());
+		}
+		
+		System.out.println("Reverse print by ListIterator.");
+		
+		while(litr.hasPrevious())
+		{
+			System.out.println(litr.previous());
+		}
 		
 	}
 
 }
+
+
