@@ -1,0 +1,34 @@
+
+
+abstract class abs1 {
+	
+	abstract void meth1();  
+	
+	void meth2() {
+		System.out.println("Non-Abstract Method From ABS1");
+	}
+}
+   class abs2 extends abs1{
+	   
+	   void meth3() {
+		   System.out.println("Non Abstract  Method From ABS2");
+	   }
+	   
+	   
+	   void meth1() {
+		   System.out.println("Abstract Method Implemented in Non-Abstract Class");
+	   }
+   }
+   
+  
+public class AbstractDemo1 {
+
+	public static void main(String[] args) {
+		abs2 a = new abs2();
+		a.meth1();
+		a.meth2();
+		a.meth3();
+
+	}
+
+}
