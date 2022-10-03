@@ -1,4 +1,5 @@
-package practiceprogramms;
+//package practiceprogramms;
+import java.lang.System;
 
 public class calculator {
 

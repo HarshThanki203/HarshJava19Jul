@@ -1,4 +1,4 @@
-package practiceprogramms;
+import java.lang.System;
 
 abstract class abs1 {
 	
