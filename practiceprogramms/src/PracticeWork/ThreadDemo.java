@@ -9,18 +9,18 @@ public class ThreadDemo {
 		System.out.println("After Name Change :"+t);
 		t.setPriority(10);
 		System.out.println("After Name Change :"+t);
-		try {
-			for(int i=1; i<=5; i++)
+		try
+		{
+			for(int i=1;i<=5;i++)
 			{
-				System.out.println(t + " : "+i);
+				System.out.println(t+" : "+i);
 				
 				Thread.sleep(1000);
 			}
-		} catch(InterruptedException e)
+		}catch(InterruptedException e)
 		{
 			e.printStackTrace();
 		}
-		System.out.println("Thread Existing...");
+		System.out.println("Thread Existing");
 	}
-
 }
